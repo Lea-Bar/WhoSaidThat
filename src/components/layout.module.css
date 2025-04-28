@@ -15,7 +15,7 @@ body {
     background-color: #1a1a1a;
 }
 
-/*Animated background that I took of from https://codepen.io/YusukeNakaya/pen/xNdvKW*/
+/*Animated background that I took of from https://codepen.io/YusukeNakaya/pen/xNdvKW */
 .animatedBackground {
     position: fixed;
     top: 0;
@@ -59,4 +59,11 @@ body {
     100% {
         transform: translateX(calc(var(--stripe-size) * -1));
     }
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }

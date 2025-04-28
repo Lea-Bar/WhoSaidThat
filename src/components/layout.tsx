@@ -20,7 +20,9 @@ export default function RootLayout({
             <div className={styles.stripeContainer}></div>
             <div className={styles.overlay}></div>
           </div>
-        {children}
+          <div className={styles.content}>
+            {children}
+          </div>
       </body>
     </html>
   );
