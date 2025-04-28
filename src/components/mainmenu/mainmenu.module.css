@@ -59,3 +59,43 @@
 .code::placeholder{
     color: #FFFF;
 }
+
+.logo{
+    position: absolute;
+    top: 0;
+    margin-top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 600px) {
+    .menuContainer {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .menuButton {
+        font-size: 24px;
+        padding: 8px 12px;
+    }
+
+    .code {
+        font-size: 24px;
+        padding: 8px;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    .buttonContainer {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo {
+        width: 400px;
+        height: auto;
+        margin: 5px;
+    }
+}
